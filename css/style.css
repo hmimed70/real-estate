@@ -1,0 +1,247 @@
+
+body{
+  box-sizing: border-box
+}
+body,
+html {
+  font-family: "Open Sans" sans-serif ;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-weight: 400;
+  background: #fff;
+  color: #333;
+  width: 100% !important;
+  height: 100% !important;
+}
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  font-weight: 800;
+  font-size: 36px;
+  color: #333;
+}
+.blue {
+   color: #0c7ef7;
+}
+h3{
+  text-transform: uppercase;
+  font-family: 'Lato' sans-serif;
+}
+nav {
+  border-bottom: 1px solid #0c7ef7 ;
+  color: #fff;
+}
+ .navbar-nav li a{
+  color: #555;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 400;
+  transition:all 0.2 ease-in-out;
+}
+
+
+/* section Header */ 
+
+#home{
+  background: url(../images/cover1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+header .dark-overlay-home{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+ .intro-text a {
+  color: #608dfd;
+  font-weight: 400;
+}
+ .intro-text a:hover,
+ .intro-text a:focus {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0f5eb3;
+}
+header .intro-text .btn-custom {
+  font-family: 'Raleway',sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #0c7ef7;
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 0;
+}
+
+header .intro-text {
+  padding-top: 180px;
+  text-align: center;
+}
+header .intro-text p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+header .intro-text h1 {
+  font-family: 'Raleway',sans-serif;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+ .home-inner{
+  padding-top: 100px;
+  font-size: 16px;
+}
+
+/* Section Homes */
+.allhomes{
+  padding: 10px 0;
+}
+.allhomes::after{
+  display: block;
+  height: 3px;
+  background-color: #0c7ef7;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;}
+.dark-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 1300px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#homes {
+  padding: 50px 0;
+}
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+}
+.home-form {
+  background: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  max-height: 1300px;
+}
+.login-form-1 label {
+  font-weight: 400;
+  color: #555;
+  font-family: "Lato", sans-serif;
+}
+.login-form-1{
+  background-color: #fff;
+  padding: 3%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+  text-align: center;
+  color: #333;
+}
+
+
+
+
+.home-inner form{
+  padding: 3% 3% 0% 3%;
+}
+.home-inner .img-logo{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+.btnSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+  font-weight: 600;
+  color: #fff;
+  background-color: #0c7ef7;
+}
+
+.login-form-1 .signup-link{
+  color: #0f5eb3; 
+  font-weight: 600;
+  text-decoration: none;
+  transition: all ease-in-out 0.2;
+}
+
+.login-form-1 .btnSubmit:hover,   .login-form-1 .btnSubmit:active{
+  background-color: #0f5eb3;
+  cursor: pointer;
+}
+/*  Card */
+
+.card-info{
+  padding:10px;
+}
+.img-card:hover{
+width: 33.33%;
+}
+
+/* scroll to top */
+.to-top {
+  background: #0c7ef7;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#fff;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+.to-top.active:hover {
+  text-decoration: none;
+  color: #fff;
+  background:#0f5eb3;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
